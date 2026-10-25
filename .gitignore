@@ -1,0 +1,28 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+
+# env — never commit real secrets
+.env
+.env.local
+.env.*.local
+
+# logs / misc
+npm-debug.log*
+.DS_Store
+*.pem
+*.tsbuildinfo
+
+# vercel
+.vercel
+
+# supabase local
+supabase/.branches
+supabase/.temp
